@@ -23,7 +23,8 @@ header{
 
 .big-box{
     height: 300px;
-    margin: 20px 0;       
+    margin: 20px 0;    
+    margin-bottom: 50px;   
 }
 
 ul li{
@@ -43,11 +44,37 @@ margin-bottom: 5px;
     border:1px solid black;
     border-radius: 5px;
     background-image: url(./img/banner.jpg);
-   
-    
     background-position: center;
+    position: relative;
+    background-color: rgb(104, 103, 103);
 }
 
+/* .main-content:after {
+    content: '\A';
+    position: absolute;
+		width: 25vw;
+		height: 100%;
+        top:0; 
+		left:0;
+    background:rgba(0,0,0,0.6);
+    opacity: 1;
+    transition: opacity 0.5s;
+    -webkit-transition: opacity 0.5s;
+	  -moz-transition: opacity 0.5s;
+}
+.big-box:hover:after {
+    opacity: 0;
+} */
+    
+.text{
+    height: 150px;
+    padding: 30px;
+    position: absolute;
+    bottom: 30px;
+    right: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;    
+}
 .leadership{
     
     margin-top: 20px;
