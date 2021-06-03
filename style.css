@@ -95,7 +95,7 @@ h4{
     float: left;
     width: 25%;
     height: 400px;
-    background-color: hotpink;
+    ;
 }
 
 .leadership .columns .col:nth-child(2) {
@@ -105,11 +105,19 @@ margin: 0 20px;
 
 #img1{
     background-image: url(./img/img-1.jpg);
+    height: 200px;
 }
 #banner{
-    background-image: url(./img/banner2.jpg);
+    background-image: url(./img/banner-2.jpg);
+    height: 200px;
 }
 
 #img2{
     background-image: url(./img/img-2.jpg);
+    height: 200px;
+}
+
+.footer{
+    height: 150px;
+    
 }
