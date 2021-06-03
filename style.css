@@ -3,8 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-.conteiner{
-    max-width: 1000px;
+
+body{
+    max-width: 1200px;
     margin: 0 auto;
 }
 .claerflix::after{
@@ -54,25 +55,22 @@ margin-bottom: 5px;
 #banner{
     height: 100%;
     width: 100%;
-    background-image: url(./img/banner.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url(./img/banner.jpg);
    
 }
-
-    
-
     
 .text{
-    height: 150px;
-    padding: 30px;
-    position: absolute;
-    margin-top: 120px;
-    right: 30%;
+    height: 100%;
+    width: 60%;
+    padding-top: 250px;
+    padding-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: grey;    
+    color:white;    
 }
 
 .main-header{
     height: 80px;
+    margin-bottom:;
 }
 
 h1{
@@ -80,32 +78,38 @@ h1{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h4{
+    color: grey;
+}
+
 
 
 .leadership{
+    
     margin-top: 20px;
     margin-bottom: 10px;
     padding-bottom: 20px;
 }
 
-
-
-.leadership .content .box{
+.leadership .columns .col{
     float: left;
     width: 25%;
-    height: 300px;
-    background-color: royalblue; 
-    display: inline-block;      
+    height: 400px;
+    background-color: hotpink;
 }
-.leadership .content .box:nth-child(2){
-    width: calc(50% - 40px);
-    margin: 0 20px;
-    margin-top: 0px;
-  
-} 
 
-footer{
-    height: 50px;
-    background-color:rgb(192, 51, 235);
-    margin-top: 20px;
+.leadership .columns .col:nth-child(2) {
+width: calc(50% - 40px);
+margin: 0 20px;
+}
+
+#img1{
+    background-image: url(./img/img-1.jpg);
+}
+#banner{
+    background-image: url(./img/banner2.jpg);
+}
+
+#img2{
+    background-image: url(./img/img-2.jpg);
 }
